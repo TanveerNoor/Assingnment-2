@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fb;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 20px 150px;
+  background-color: #fff;
+  height: 71px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.logo span {
+  font-size: 24px;
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-left: auto; /* Pushes nav to right */
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #d9534f;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  color: #333;
+}
+  
+
+
+
+
+
+
+
+
+main {  display: flex;  align-items: center;  justify-content: space-between;  background-color: #f0f8ff;  padding: 20px;}
+.banner {  flex: 1;  padding-right: 20px;}
+.banner h1 {  font-size: 2.5em;  margin: 0;}
+.banner h1 .highlight {  color: #ff4500;}
+.banner h2 {  font-size: 3em;  color: #000;  margin: 0.2em 0;}
+.banner p {  font-size: 1em;  color: #333;}
+.banner a {  display: inline-block;  margin-top: 10px;  color: #007bff;  text-decoration: none;}
+.flower-image img {  width: 570px;  height: 299px;  object-fit: cover;}
