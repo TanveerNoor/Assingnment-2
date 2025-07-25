@@ -1,3 +1,6 @@
+
+/* common */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -571,3 +574,5 @@ p {
     height: 28px;
   }
 }
+
+
